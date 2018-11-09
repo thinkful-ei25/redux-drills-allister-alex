@@ -1,5 +1,5 @@
 import store from './store';
-import {setLanguage} from './actions';
+import {setLanguage} from './actions/index';
 
 // Should output {language: 'en'}
 console.log(store.getState());
